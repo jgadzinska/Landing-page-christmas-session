@@ -1,5 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+
+body {
+    min-height: 100vh;
+    background: url(images1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 9%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 50px;
+    color: rgb(33, 66, 34);
+    text-decoration: none;
+}
+
+.header .navbar a {
+    font-size: 25px;
+    margin-right: 20px;
+    color: red;
+    text-decoration: none;
+
+}
+
+.header .navbar a:hover {
+    color: gold;
+}
+
+.header .navbar #close {
+    display: none;
 }
