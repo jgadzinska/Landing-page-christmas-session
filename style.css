@@ -11,9 +11,7 @@
 
 body {
     min-height: 100vh;
-    background: url(images1.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: white;
 }
 
 .header {
@@ -61,29 +59,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
     min-height: 100vh;
 }
 
-.text .content {
-    flex: 1 1 40rem;
+section {
+    padding: 2rem 9%;
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 800;
-    color: rgb(127, 12, 12);
+    color: rgb(210, 1, 1);
+    margin-top: 20px;
     text-transform: uppercase;
-    padding-left: 20px;
-}
-
-section {
-    padding: 2re 9%;
 }
 
 .content p {
     font-size: 20px;
     color: rgb(22, 61, 22);
-    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.text .image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 3px 4px grey;
 }
