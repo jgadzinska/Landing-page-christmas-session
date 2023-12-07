@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +12,9 @@
 
 body {
     min-height: 100vh;
-    background-color: white;
+    background: url(images2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .header {
@@ -37,14 +40,13 @@ body {
 
 .header .navbar a {
     font-size: 25px;
-    margin-right: 20px;
     color: red;
+    margin-right: 20px;
     text-decoration: none;
-
 }
 
 .header .navbar a:hover {
-    color: gold;
+    color: rgb(33, 66, 34);
 }
 
 .header .navbar #close {
@@ -62,26 +64,47 @@ body {
     min-height: 100vh;
 }
 
-section {
-    padding: 2rem 9%;
-}
-
 h1 {
-    font-size: 65px;
-    font-weight: 800;
-    color: rgb(210, 1, 1);
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Teko', sans-serif;
+    color: rgb(237, 53, 53);
     margin-top: 20px;
+    padding-bottom: 30px;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(22, 61, 22);
-    padding-right: 50px;
+    line-height: 35px;
+    padding: 16px 0;
 }
 
 .text .image img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: 2px 3px 4px grey;
+    box-shadow: 2px 3px 4px rgb(58, 45, 45);
+}
+
+.text .content .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    background-color: red;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px red;
+    cursor: pointer;
+}
+
+.text .content .btn:hover {
+    letter-spacing: 2px;
+    background-color: white;
+    color: red;
+    box-shadow: 1px 2px red;
 }
