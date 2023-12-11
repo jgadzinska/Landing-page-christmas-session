@@ -1,4 +1,5 @@
-let navbar = document.querySelector(".header navbar");
+const navbar = document.querySelector(".header .navbar");
+
 
 document.querySelector("#menu").onclick = () => {
     navbar.classList.add("active");
