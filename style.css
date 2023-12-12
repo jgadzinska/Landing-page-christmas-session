@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    transition: .2s linear;
-
+    transition: 0.2s linear;
 }
 
 body {
@@ -51,20 +52,28 @@ body {
 
 .header .navbar #close {
     display: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 33px;
+    color: white;
 }
 
 .header #menu {
     display: none;
-    font-size: 2.5rem;
+    font-size: 40px;
     color: black;
     cursor: pointer;
 }
 
 .text {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 h1 {
@@ -79,7 +88,7 @@ h1 {
 }
 
 .text .content {
-    padding-top: 6.5rem;
+    padding-top: 70px;
 }
 
 .content p {
@@ -119,10 +128,10 @@ h1 {
 .header .navbar #close {
     display: none;
     position: absolute;
-    top: 4rem;
-    right: 2rem;
+    top: 60px;
+    right: 30px;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 50px;
     color: black;
 }
 
@@ -155,8 +164,8 @@ h1 {
         position: fixed;
         top: 0;
         right: -105%;
-        width: 30rem;
-        background-color: rgb(241, 84, 84);
+        width: 500px;
+        background-color: rgb(184, 3, 3);
         backdrop-filter: blur(50px);
         transition: 0.5s;
         height: 100%;
@@ -168,7 +177,17 @@ h1 {
     .header .navbar.active {
         right: 0;
     }
-
+    .header .navbar #close {
+        display: block;
+        color: white;
+    }
+    .header .navbar a {
+        display: block;
+        margin: 16px 0;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
     .logo {
         font-size: 45px;
     }
