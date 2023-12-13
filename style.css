@@ -135,6 +135,21 @@ h1 {
     color: black;
 }
 
+@media (max-width:1199px) {
+    .header {
+        padding: 2rem;
+    }
+    section {
+        padding: 2rem;
+    }
+    .logo {
+        font-size: 43px;
+    }
+    .content p {
+        font-size: 22px;
+    }
+}
+
 @media (max-width:991px) {
     .header {
         padding: 2rem;
@@ -143,16 +158,16 @@ h1 {
         padding: 2rem;
     }
     .logo {
-        font-size: 33px;
+        font-size: 40px;
     }
     .header .navbar a {
         font-size: 22px;
     }
     h1 {
-        font-size: 48px;
+        font-size: 50px;
     }
     .content p {
-        font-size: 23px;
+        font-size: 22px;
     }
 }
 
@@ -192,10 +207,10 @@ h1 {
         font-size: 45px;
     }
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
     .content p {
-        font-size: 17px;
+        font-size: 22px;
     }
     .text .image img {
         width: 35vh;
