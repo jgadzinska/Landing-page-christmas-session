@@ -30,6 +30,9 @@ body {
     padding: 35px 9%;
     z-index: 2;
     cursor: pointer;
+    background: white;
+    height: 100px;
+    box-shadow: 2px 3px 4px white;
 }
 
 .logo {
@@ -167,7 +170,10 @@ h1 {
         font-size: 50px;
     }
     .content p {
-        font-size: 22px;
+        font-size: 24px;
+    }
+    .text .image img {
+        width: 55vh;
     }
 }
 
@@ -210,7 +216,7 @@ h1 {
         font-size: 36px;
     }
     .content p {
-        font-size: 22px;
+        font-size: 20px;
     }
     .text .image img {
         width: 35vh;
