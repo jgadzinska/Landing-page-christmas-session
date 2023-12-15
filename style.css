@@ -16,6 +16,23 @@ body {
     background: url(images2.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+}
+
+#snow {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: snow;
+    position: absolute;
+    animation: snowfall 10s linear infinite;
+    top: -50px;
+}
+
+@keyframes snowfall {
+    100% {
+        top: 100%;
+    }
 }
 
 .header {
