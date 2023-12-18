@@ -144,6 +144,24 @@ h1 {
     color: red;
     box-shadow: 1px 2px red;
 }
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.socials li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 35px;
+    color: black;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.socials li:hover {
+    
+}
 
 .header .navbar #close {
     display: none;
@@ -168,6 +186,9 @@ h1 {
     .content p {
         font-size: 22px;
     }
+    .socials li {
+        margin: 10px;
+    }
 }
 
 @media (max-width:991px) {
@@ -191,6 +212,9 @@ h1 {
     }
     .text .image img {
         width: 55vh;
+    }
+    .socials li {
+        margin: 10px;
     }
 }
 
@@ -237,5 +261,8 @@ h1 {
     }
     .text .image img {
         width: 35vh;
+    }
+    .socials li {
+        margin: 10px;
     }
 }
