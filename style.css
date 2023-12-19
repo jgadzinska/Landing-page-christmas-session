@@ -19,14 +19,15 @@ body {
     overflow: hidden;
 }
 
+    /*SNOW EFFECT*/
 #snow {
-    width: 15px;
-    height: 15px;
+    position: absolute;
+    top: -50px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: snow;
-    position: absolute;
     animation: snowfall 10s linear infinite;
-    top: -50px;
 }
 
 @keyframes snowfall {
@@ -35,20 +36,20 @@ body {
     }
 }
 
+   /*HEADER*/
 .header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    text-decoration: none;
+    height: 100px;
+    padding: 35px 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 9%;
     z-index: 2;
     cursor: pointer;
     background: white;
-    height: 100px;
     box-shadow: 2px 3px 4px white;
 }
 
@@ -59,7 +60,7 @@ body {
     text-decoration: none;
 }
 
-.header .navbar a {
+.navbar a {
     font-size: 25px;
     color: #ff0000;
     margin-right: 20px;
@@ -75,9 +76,9 @@ body {
     position: absolute;
     top: 30px;
     right: 30px;
-    cursor: pointer;
     font-size: 33px;
     color: white;
+    cursor: pointer;
 }
 
 .header #menu {
@@ -87,6 +88,7 @@ body {
     cursor: pointer;
 }
 
+   /*TEXT SECTION*/
 .text {
     min-height: 100vh;
     display: flex;
@@ -107,7 +109,7 @@ h1 {
     letter-spacing: 3px;
 }
 
-.text .content {
+.content {
     padding-top: 70px;
 }
 
@@ -118,32 +120,30 @@ h1 {
     padding: 16px 0;
 }
 
-.text .image img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 2px 3px 4px rgb(58, 45, 45);
-}
-
-.text .content .btn {
+   /*BUTTON*/
+.content .btn {
     display: inline-block;
     padding: 15px 30px;
     margin-top: 20px;
     font-size: 30px;
+    font-weight: 700;
     color: white;
     text-decoration: none;
     list-style: none;
     background-color: #ff0000;
-    border-radius: 3px;
     box-shadow: 1px 2px 3px #ff0000;
+    border-radius: 3px;
     cursor: pointer;
 }
 
-.text .content .btn:hover {
+.content .btn:hover {
     letter-spacing: 2px;
-    background-color: white;
     color: #ff0000;
+    background-color: white;
     box-shadow: 1px 2px #ff0000;
 }
+
+   /*SOCIAL MEDIA*/
 .socials {
     display: flex;
     align-items: center;
@@ -180,7 +180,14 @@ h1 {
 }
 
 .socials li:hover {
-    color: rgb(180, 167, 167);
+    color: grey;
+}
+
+   /*IMAGE SECTION*/
+.image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 3px 4px rgb(58, 45, 45);
 }
 
 .header .navbar #close {
@@ -188,11 +195,13 @@ h1 {
     position: absolute;
     top: 60px;
     right: 30px;
-    cursor: pointer;
     font-size: 50px;
     color: black;
+    cursor: pointer;
 }
 
+
+   /*MEDIA QUERIES*/
 @media (max-width:1199px) {
     .header {
         padding: 2rem;
@@ -210,6 +219,7 @@ h1 {
         margin-top: 20px;
     }
 }
+
 
 @media (max-width:991px) {
     .header {
@@ -238,6 +248,7 @@ h1 {
     }
 }
 
+
 @media (max-width:768px){
     .header #menu {
         display: inline-block;
@@ -247,10 +258,9 @@ h1 {
         top: 0;
         right: -105%;
         width: 500px;
-        background-color: rgb(184, 3, 3);
-        backdrop-filter: blur(50px);
-        transition: 0.5s;
         height: 100%;
+        background-color: rgb(184, 3, 3);
+        transition: 0.5s;
         display: flex;
         flex-flow: column;
         justify-content: center;
