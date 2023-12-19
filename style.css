@@ -61,7 +61,7 @@ body {
 
 .header .navbar a {
     font-size: 25px;
-    color: red;
+    color: #ff0000;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -100,7 +100,7 @@ h1 {
     font-size: 70px;
     font-weight: 900;
     font-family: 'Teko', sans-serif;
-    color: rgb(237, 53, 53);
+    color: #ff0000;
     margin-top: 20px;
     padding-bottom: 30px;
     text-transform: uppercase;
@@ -132,17 +132,17 @@ h1 {
     color: white;
     text-decoration: none;
     list-style: none;
-    background-color: red;
+    background-color: #ff0000;
     border-radius: 3px;
-    box-shadow: 1px 2px 3px red;
+    box-shadow: 1px 2px 3px #ff0000;
     cursor: pointer;
 }
 
 .text .content .btn:hover {
     letter-spacing: 2px;
     background-color: white;
-    color: red;
-    box-shadow: 1px 2px red;
+    color: #ff0000;
+    box-shadow: 1px 2px #ff0000;
 }
 .socials {
     display: flex;
@@ -155,12 +155,32 @@ h1 {
     text-decoration: none;
     list-style: none;
     font-size: 35px;
-    color: black;
     margin-top: 100px;
     cursor: pointer;
 }
+
+.socials .fb {
+    color: rgb(1, 101, 225);
+}
+
+.socials .twit {
+    color: rgb(29, 155, 240);
+}
+
+.socials .tt {
+    color: rgb(0, 0, 0);
+}
+
+.socials .insta {
+    color: rgb(225, 48, 108);
+}
+
+.socials .yt {
+    color: rgb(255, 0, 0);
+}
+
 .socials li:hover {
-    
+    color: rgb(180, 167, 167);
 }
 
 .header .navbar #close {
@@ -187,7 +207,7 @@ h1 {
         font-size: 22px;
     }
     .socials li {
-        margin: 10px;
+        margin-top: 20px;
     }
 }
 
@@ -214,7 +234,7 @@ h1 {
         width: 55vh;
     }
     .socials li {
-        margin: 10px;
+        margin-top: 20px;
     }
 }
 
@@ -254,7 +274,7 @@ h1 {
         font-size: 45px;
     }
     h1 {
-        font-size: 36px;
+        font-size: 37px;
     }
     .content p {
         font-size: 20px;
@@ -263,6 +283,6 @@ h1 {
         width: 35vh;
     }
     .socials li {
-        margin: 10px;
+        margin-top: 20px;
     }
 }
