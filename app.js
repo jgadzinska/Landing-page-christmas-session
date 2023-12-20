@@ -1,6 +1,6 @@
 const navbar = document.querySelector(".header .navbar");
 
-
+  //MENU AND CLOSE
 document.querySelector("#menu").onclick = () => {
     navbar.classList.add("active");
 };
@@ -10,6 +10,8 @@ document.querySelector("#close").onclick = () => {
 };
 
 
+
+   //SNOW EFFECT
 for (let i=0; i < 100; i++) {
     let snow = document.createElement('div');
     
