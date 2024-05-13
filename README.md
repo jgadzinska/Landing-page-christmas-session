@@ -1,1 +1,1 @@
-Responsive landing page "CHRISTMAS SESSIONS"  🎄
+Responsive landing page "CHRISTMAS SESSIONS"   🎄
