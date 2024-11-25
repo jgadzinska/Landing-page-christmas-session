@@ -1,5 +1,17 @@
 Demo: https://jgadzinska.github.io/Landing-page-christmas-session/
 
-Technologie: HTML, CSS, JavaScript.
+Technologies: HTML, CSS, JavaScript.
 
-Responsive landing page "CHRISTMAS SESSIONS"   🎄
+Landing page "CHRISTMAS SESSIONS"   🎄
+
+Features:
+
+- navigation structure
+
+- a header with a short description and a button
+
+- icons for social media
+
+- snow animation
+
+- the website is responsive
